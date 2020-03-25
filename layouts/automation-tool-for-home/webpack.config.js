@@ -88,7 +88,11 @@ const plugins = () => {
     new CleanWebpackPlugin(), // clean dist from old files
     new CopyWebpackPlugin([ // Copy any files
       {
-        from: path.resolve(__dirname, 'src/favicon.ico'),
+        from: path.resolve(__dirname, 'src/fav.ico'),
+        to: path.resolve(__dirname, 'dist'),
+      },
+      {
+        from: path.resolve(__dirname, 'src/assets/**/*.*'),
         to: path.resolve(__dirname, 'dist'),
       },
     ]),
@@ -110,7 +114,7 @@ module.exports = {
   context: path.resolve(__dirname, 'src'), // Initial folder
   mode: 'development', // default build mode
   entry: { // files where webpack starts building
-    main: ['@babel/polyfill', './index.jsx'], // 'name of final file': 'paths to files'
+    main: ['@babel/polyfill', './index.js'], // 'name of final file': 'paths to files'
   },
   output: {
     filename: filename('js'), // [name] - name of entry field; [contenthash] - file hash;
@@ -123,14 +127,16 @@ module.exports = {
       '.pmg',
     ],
     alias: { // path names for import; in import we can specify alias instead of relative path
-      '@models': path.resolve(__dirname, 'src/models'),
+      '@blocks': path.resolve(__dirname, 'src/common.blocks'),
       '@': path.resolve(__dirname, 'src'),
     },
   },
   optimization: optimization(), // allows to move multiple imports in a single separated file
   devServer: {
-    port: 4200,
+    port: 4242,
     hot: isDev, // update changes without reloading page
+    watchContentBase: true, // make live-reloading happen even when changes are made to the static html pages
+    overlay: { warnings: true, errors: true },  // show error message on the screen
   },
   devtool: isDev ? 'source-map' : '',
   plugins: plugins(),
