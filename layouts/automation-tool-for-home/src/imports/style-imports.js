@@ -11,6 +11,7 @@ import '@/common.blocks/button/button.scss';
 
 import '@/common.blocks/nav/nav.scss';
 import '@/common.blocks/nav/__button/nav__button.scss';
+import '@/common.blocks/nav/__button-icon/nav__button-icon.scss';
 import '@/common.blocks/nav/__button-wrapper/nav__button-wrapper.scss';
 import '@/common.blocks/nav/__inner/nav__inner.scss';
 import '@/common.blocks/nav/__logo/nav__logo.scss';
