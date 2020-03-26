@@ -128,6 +128,8 @@ module.exports = {
     ],
     alias: { // path names for import; in import we can specify alias instead of relative path
       '@blocks': path.resolve(__dirname, 'src/common.blocks'),
+      '@vars': path.resolve(__dirname, 'src/styles/vars'),
+      '@assets': path.resolve(__dirname, 'src/assets'),
       '@': path.resolve(__dirname, 'src'),
     },
   },

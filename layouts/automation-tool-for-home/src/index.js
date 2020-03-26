@@ -1,2 +1,2 @@
-import './common.blocks/common.scss';
+import './imports/style-imports.js';
 console.log('test')
