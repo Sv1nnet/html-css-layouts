@@ -1,0 +1,11 @@
+@import '@vars/colors.sass';
+
+.header__title {
+  max-width: 650px;
+  margin: 0;
+  font-size: 60px;
+  letter-spacing: 0.06em;
+  font-family: 'PT Serif';
+  font-weight: bold;
+  color: $blue_1;
+}

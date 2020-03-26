@@ -1,0 +1,11 @@
+.services__inner {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+
+  position: relative;
+  margin: 190px auto 190px;
+  max-width: 940px;
+  height: 1150px;
+}

@@ -1,0 +1,9 @@
+@import '@vars/colors.sass';
+
+.button {
+  width: 220px;
+  height: 56px;
+  background-color: $blue_4;
+  border: none;
+  border-radius: 10px;
+}

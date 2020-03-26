@@ -1,0 +1,12 @@
+@import '@vars/colors.sass';
+
+.service-card__title {
+  margin: 0;
+  color: $blue_1;
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+}

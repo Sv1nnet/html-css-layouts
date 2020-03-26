@@ -1,0 +1,38 @@
+@import '@vars/colors.sass';
+
+.service-card__icon {
+  position: relative;
+  display: inline-block;
+  margin-left: 26px;
+  width: 18px;
+  height: 2px;
+  background-color: $blue_4;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -18px;
+    transform: rotate(45deg);
+    display: block;
+    margin-left: 26px;
+    width: 10px;
+    height: 2px;
+    background-color: $blue_4;
+    border-radius: 1px;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: -18px;
+    transform: rotate(-45deg);
+    display: block;
+    margin-left: 26px;
+    width: 10px;
+    height: 2px;
+    background-color: $blue_4;
+    border-radius: 1px;
+  }
+}

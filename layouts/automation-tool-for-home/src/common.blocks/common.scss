@@ -1,1 +1,7 @@
-@import '../styles/vars/colors.sass';
+@import '@vars/colors.sass';
+@import '../styles/fonts/PTSerif.sass';
+
+body {
+  margin: 0;
+  padding: 0;
+}

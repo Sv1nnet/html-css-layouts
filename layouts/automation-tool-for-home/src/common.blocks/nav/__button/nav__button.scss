@@ -1,0 +1,26 @@
+@import '@vars/colors.sass';
+
+.nav__button {
+  background-color: $blue_3;
+  width: 28px;
+  height: 3px;
+  position: relative;
+  &:after {
+    content: '';
+    display: block;
+    width: 28px;
+    height: 3px;
+    position: absolute;
+    top: -7px;
+    background-color: $blue_3;
+  }
+  &:before {
+    content: '';
+    display: block;
+    width: 28px;
+    height: 3px;
+    position: absolute;
+    top: 7px;
+    background-color: $blue_3;
+  }
+}
