@@ -1,0 +1,11 @@
+@import '@vars/colors.sass';
+
+.clients__more-clients {
+  background-color: rgba($blue_3, .3);
+  cursor: pointer;
+  transition: all .3s;
+
+  &:hover {
+    background-color: rgba($blue_3, .6);
+  }
+}
