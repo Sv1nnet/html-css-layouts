@@ -2,6 +2,7 @@ import '@/common.blocks/common.scss';
 
 import '@/common.blocks/body/__header/body__header.scss';
 import '@/common.blocks/body/__services/body__services.scss';
+import '@/common.blocks/body/__footer/body__footer.scss';
 
 import '@/common.blocks/text/text.scss';
 import '@/common.blocks/text/_color/text_color_dark.scss';
@@ -79,6 +80,7 @@ import '@/common.blocks/clients/clients.scss';
 import '@/common.blocks/clients/__client-list/clients__client-list.scss';
 import '@/common.blocks/clients/__inner/clients__inner.scss';
 import '@/common.blocks/clients/__logo/clients__logo.scss';
+import '@/common.blocks/clients/__logo-link/clients__logo-link.scss';
 import '@/common.blocks/clients/__more-clients/clients__more-clients.scss';
 
 import '@/common.blocks/contact-us/contact-us.scss';
@@ -86,5 +88,21 @@ import '@/common.blocks/contact-us/__inner/contact-us__inner.scss';
 import '@/common.blocks/contact-us/__wrapper/contact-us__wrapper.scss';
 import '@/common.blocks/contact-us/__description-wrapper/contact-us__description-wrapper.scss';
 import '@/common.blocks/contact-us/__title/contact-us__title.scss';
+
+import '@/common.blocks/footer/footer.scss';
+import '@/common.blocks/footer/__divider/footer__divider.scss';
+import '@/common.blocks/footer/__divider/_size/footer__divider_size_half.scss';
+import '@/common.blocks/footer/__inner/footer__inner.scss';
+import '@/common.blocks/footer/__wrapper/footer__wrapper.scss';
+import '@/common.blocks/footer/__ul/footer__ul.scss';
+import '@/common.blocks/footer/__ul-title/footer__ul-title.scss';
+import '@/common.blocks/footer/__logo/footer__logo.scss';
+import '@/common.blocks/footer/__logo-title/footer__logo-title.scss';
+import '@/common.blocks/footer/__list-item/footer__list-item.scss';
+import '@/common.blocks/footer/__link/footer__link.scss';
+import '@/common.blocks/footer/__adress/footer__adress.scss';
+import '@/common.blocks/footer/__telephone/footer__telephone.scss';
+import '@/common.blocks/footer/__email/footer__email.scss';
+import '@/common.blocks/footer/__rights/footer__rights.scss';
 
 import '@/styles/selectors-chain/set-overlay-opacity-on-hover.scss';

@@ -1,0 +1,10 @@
+@import '@vars/colors.sass';
+
+.footer__inner {
+  position: relative;
+  z-index: 1;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-right: 80px;
+  background: $blue_2;
+}

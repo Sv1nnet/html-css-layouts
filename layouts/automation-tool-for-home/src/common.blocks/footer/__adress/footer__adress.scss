@@ -1,0 +1,13 @@
+.footer__adress {
+  position: relative;
+  margin-left: 34px;
+  margin-top: 6px;
+  display: inline-block;
+
+  &:after {
+    content: 'A.';
+    position: absolute;
+    top: 0;
+    left: -34px;
+  }
+}

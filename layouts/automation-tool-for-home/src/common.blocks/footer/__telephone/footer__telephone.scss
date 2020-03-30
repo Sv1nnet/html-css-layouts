@@ -1,0 +1,13 @@
+.footer__telephone {
+  position: relative;
+  margin-left: 34px;
+  margin-top: 6px;
+  display: inline-block;
+
+  &:after {
+    content: 'T.';
+    position: absolute;
+    top: 0;
+    left: -34px;
+  }
+}

@@ -1,0 +1,13 @@
+.footer__email {
+  position: relative;
+  margin-left: 34px;
+  margin-top: 6px;
+  display: inline-block;
+
+  &:after {
+    content: 'E.';
+    position: absolute;
+    top: 0;
+    left: -34px;
+  }
+}
