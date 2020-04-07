@@ -10,10 +10,6 @@
     margin: 78px auto 78px;
     flex-wrap: wrap;
     flex-direction: row;
-  }
-}
-
-@media (max-width: 375px) {
-  .services__inner {
+    height: 100%;
   }
 }
