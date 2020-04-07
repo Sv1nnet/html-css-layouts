@@ -39,9 +39,11 @@ import '@/common.blocks/section-title/section-title.scss';
 import '@/common.blocks/section-title/_color/section-title_color_white.scss';
 import '@/common.blocks/section-title/_color/section-title_color_dark.scss';
 import '@/common.blocks/section-title/_type/section-title_type_inline-block.scss';
+import '@/common.blocks/section-title/media.scss';
 
 import '@/common.blocks/section-text/section-text.scss';
 import '@/common.blocks/section-text/_ml/section-text_ml_60.scss';
+import '@/common.blocks/section-text/media.scss';
 
 import '@/common.blocks/services/services.scss';
 import '@/common.blocks/services/__inner/services__inner.scss';
@@ -67,15 +69,19 @@ import '@/common.blocks/service-card/__icon/service-card__icon.scss';
 import '@/common.blocks/projects/projects.scss';
 import '@/common.blocks/projects/__cards-wrapper/projects__cards-wrapper.scss';
 import '@/common.blocks/projects/__card/projects__card.scss';
+import '@/common.blocks/projects/__card/media.scss';
 import '@/common.blocks/projects/__inner/projects__inner.scss';
+import '@/common.blocks/projects/__inner/media.scss';
 
 import '@/common.blocks/project-card/project-card.scss';
 import '@/common.blocks/project-card/_width/project-card_width_short.scss';
+import '@/common.blocks/project-card/_width/media.scss';
 import '@/common.blocks/project-card/_text-align/project-card_text-align_right.scss';
 import '@/common.blocks/project-card/_img/project-card_img_1.scss';
 import '@/common.blocks/project-card/_img/project-card_img_2.scss';
 import '@/common.blocks/project-card/_img/project-card_img_3.scss';
 import '@/common.blocks/project-card/__image/project-card__image.scss';
+import '@/common.blocks/project-card/__image/media.scss';
 import '@/common.blocks/project-card/__overlay/project-card__overlay.scss';
 import '@/common.blocks/project-card/__overlay/_gradient/project-card__overlay_gradient_1.scss';
 import '@/common.blocks/project-card/__overlay/_gradient/project-card__overlay_gradient_2.scss';
