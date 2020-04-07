@@ -1,6 +1,7 @@
 import '@/common.blocks/common.scss';
 
 import '@/common.blocks/body/__header/body__header.scss';
+import '@/common.blocks/body/__header/media.scss';
 import '@/common.blocks/body/__services/body__services.scss';
 import '@/common.blocks/body/__footer/body__footer.scss';
 
@@ -22,12 +23,17 @@ import '@/common.blocks/nav/__inner/nav__inner.scss';
 
 import '@/common.blocks/header/header.scss';
 import '@/common.blocks/header/__inner/header__inner.scss';
+import '@/common.blocks/header/__inner/media.scss';
 import '@/common.blocks/header/__button/header__button.scss';
+import '@/common.blocks/header/__button/media.scss';
 import '@/common.blocks/header/__content-wrapper/header__content-wrapper.scss';
 import '@/common.blocks/header/__image-wrapper/header__image-wrapper.scss';
 import '@/common.blocks/header/__image/header__image.scss';
+import '@/common.blocks/header/__image/media.scss';
 import '@/common.blocks/header/__text/header__text.scss';
+import '@/common.blocks/header/__text/media.scss';
 import '@/common.blocks/header/__title/header__title.scss';
+import '@/common.blocks/header/__title/media.scss';
 
 import '@/common.blocks/section-title/section-title.scss';
 import '@/common.blocks/section-title/_color/section-title_color_white.scss';
