@@ -45,15 +45,20 @@ import '@/common.blocks/section-text/_ml/section-text_ml_60.scss';
 
 import '@/common.blocks/services/services.scss';
 import '@/common.blocks/services/__inner/services__inner.scss';
+import '@/common.blocks/services/__inner/media.scss';
 import '@/common.blocks/services/__title/services__title.scss';
+import '@/common.blocks/services/__title/media.scss';
 import '@/common.blocks/services/__card/services__card.scss';
+import '@/common.blocks/services/__card/media.scss';
 
 import '@/common.blocks/service-card/service-card.scss';
+import '@/common.blocks/service-card/media.scss';
 import '@/common.blocks/service-card/__image-wrapper/service-card__image-wrapper.scss';
 import '@/common.blocks/service-card/__image/service-card__image.scss';
 import '@/common.blocks/service-card/__image/_indent-right/service-card__image_indent-right_big.scss';
 import '@/common.blocks/service-card/__image/_indent-right/service-card__image_indent-right_medium.scss';
 import '@/common.blocks/service-card/__inner/service-card__inner.scss';
+import '@/common.blocks/service-card/__inner/media.scss';
 import '@/common.blocks/service-card/__title/service-card__title.scss';
 import '@/common.blocks/service-card/__text/service-card__text.scss';
 import '@/common.blocks/service-card/__link/service-card__link.scss';

@@ -1,0 +1,9 @@
+@media (max-width: 425px) {
+  .services__card {
+    margin: 45px auto 45px;
+    
+    &:last-of-type {
+      margin: 45px auto 45px;
+    }
+  }
+}

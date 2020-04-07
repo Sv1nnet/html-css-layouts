@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+  .services__inner {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 425px) {
+  .services__inner {
+    margin: 78px auto 78px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 375px) {
+  .services__inner {
+  }
+}

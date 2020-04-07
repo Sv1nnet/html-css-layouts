@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+  .services__title {
+    left: 15px;
+  }
+}
+
+@media (max-width: 425px) {
+  .services__title {
+    position: relative;
+    left: 0;
+    text-align: center;
+  }
+}
