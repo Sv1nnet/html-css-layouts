@@ -103,12 +103,17 @@ import '@/common.blocks/clients/__logo/media.scss';
 import '@/common.blocks/clients/__logo-link/clients__logo-link.scss';
 import '@/common.blocks/clients/__logo-link/media.scss';
 import '@/common.blocks/clients/__more-clients/clients__more-clients.scss';
+import '@/common.blocks/clients/__title/media.scss';
+import '@/common.blocks/clients/__text/media.scss';
 
 import '@/common.blocks/contact-us/contact-us.scss';
 import '@/common.blocks/contact-us/__inner/contact-us__inner.scss';
 import '@/common.blocks/contact-us/__wrapper/contact-us__wrapper.scss';
+import '@/common.blocks/contact-us/__wrapper/media.scss';
 import '@/common.blocks/contact-us/__description-wrapper/contact-us__description-wrapper.scss';
+import '@/common.blocks/contact-us/__description-wrapper/media.scss';
 import '@/common.blocks/contact-us/__title/contact-us__title.scss';
+import '@/common.blocks/contact-us/__title/media.scss';
 
 import '@/common.blocks/footer/footer.scss';
 import '@/common.blocks/footer/__divider/footer__divider.scss';
