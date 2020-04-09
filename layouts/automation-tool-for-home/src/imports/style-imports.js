@@ -95,9 +95,13 @@ import '@/common.blocks/project-card/__title/_mt/project-card__title_mt_s.scss';
 
 import '@/common.blocks/clients/clients.scss';
 import '@/common.blocks/clients/__client-list/clients__client-list.scss';
+import '@/common.blocks/clients/__client-list/media.scss';
 import '@/common.blocks/clients/__inner/clients__inner.scss';
+import '@/common.blocks/clients/__inner/media.scss';
 import '@/common.blocks/clients/__logo/clients__logo.scss';
+import '@/common.blocks/clients/__logo/media.scss';
 import '@/common.blocks/clients/__logo-link/clients__logo-link.scss';
+import '@/common.blocks/clients/__logo-link/media.scss';
 import '@/common.blocks/clients/__more-clients/clients__more-clients.scss';
 
 import '@/common.blocks/contact-us/contact-us.scss';

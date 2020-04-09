@@ -1,5 +1,6 @@
 .service-card__inner {
-  width: 284px;
-  margin: 48px;
-  margin-top: 44px;
+  width: 100%;
+  padding: 0 48px;
+  margin: 44px 0;
+  box-sizing: border-box;
 }

@@ -1,2 +1,5 @@
 import './imports/style-imports.js';
-console.log('test')
+
+window.addEventListener('load', function() {
+  console.log('loaded');
+})
