@@ -1,0 +1,31 @@
+$border-color: rgba(255, 255, 255, .2) 2px solid;
+
+@media (max-width: 768px) {
+  .clients__logo {
+    flex-basis: 50%;
+
+    &:not(:nth-last-of-type(-n+2)) {
+      border-bottom: $border-color;
+    }
+
+    &:nth-of-type(n-2) {
+      border-top: none;
+    }
+
+    &:nth-of-type(2n) {
+      border-right: none;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .clients__logo {
+    flex-basis: 100%;
+    border-left: none;
+    border-right: none;
+    
+    &:not(:last-of-type) {
+      border-bottom: $border-color;
+    }
+  }
+}
