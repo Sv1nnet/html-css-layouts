@@ -127,7 +127,7 @@ module.exports = {
     extensions: [ // what extensions webpack has to undertand by default in imports
       '.js',
       '.json',
-      '.pmg',
+      '.png',
     ],
     alias: { // path names for import; in import we can specify alias instead of relative path
       '@blocks': path.resolve(__dirname, 'src/common.blocks'),
