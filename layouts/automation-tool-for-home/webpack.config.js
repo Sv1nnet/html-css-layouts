@@ -84,6 +84,8 @@ const plugins = () => {
       minify: {
         collapseWhitespace: isProd, // remove whitespace from .html file
       },
+      excludeChunks: ['script-imports'],
+      inject: true,
     }),
     new CleanWebpackPlugin(), // clean dist from old files
     new CopyWebpackPlugin([ // Copy any files
@@ -115,6 +117,7 @@ module.exports = {
   mode: 'development', // default build mode
   entry: { // files where webpack starts building
     main: ['@babel/polyfill', './index.js'], // 'name of final file': 'paths to files'
+    'script-imports': ['./imports/script-imports.js'], // 'name of final file': 'paths to files'
   },
   output: {
     filename: filename('js'), // [name] - name of entry field; [contenthash] - file hash;
