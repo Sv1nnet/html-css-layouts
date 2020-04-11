@@ -1,1 +1,1 @@
-Here I use BEM naming CSS. Initial template comes without mobile version, so here is just finished desktop HTML layout.
+Here I use BEM naming and jQuery.
