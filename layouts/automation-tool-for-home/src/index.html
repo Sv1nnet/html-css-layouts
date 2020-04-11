@@ -12,10 +12,21 @@
   <nav class="nav">
     <div class="nav__inner">
 
-      <div class="logo">
+      <div class="logo nav__logo">
         <a href="#">
           <img src="assets/img/logo-dark.svg" alt="logo"></img>
         </a>
+      </div>
+
+      <div class="nav__menu-wrapper">
+        <ul class="nav-menu nav__menu">
+          <li data-scroll-to="header" class="nav-menu__list-item nav-menu__list-item_active">About</li>
+          <li data-scroll-to="services" class="nav-menu__list-item">Services</li>
+          <li data-scroll-to="projects" class="nav-menu__list-item">Projects</li>
+          <li data-scroll-to="clients" class="nav-menu__list-item">Clients</li>
+          <li data-scroll-to="contact-us" class="nav-menu__list-item">Contact us</li>
+          <li data-scroll-to="footer" class="nav-menu__list-item">Contacts</li>
+        </ul>
       </div>
 
       <div class="nav__button-wrapper">
@@ -27,7 +38,7 @@
     </div>
   </nav>
 
-  <header class="header body__header">
+  <header id="header" class="header body__header">
     <div class="header__image-wrapper">
       <img src="./assets/img/header/illustration.png" alt="illustration" class="header__image">
     </div>
@@ -46,7 +57,7 @@
     </div>
   </header>
 
-  <section class="services body__services">
+  <section id="services" class="services body__services">
     <div class="services__inner">
 
       <h2 class="section-title section-title_color_dark services__title">What we do to help
@@ -112,7 +123,7 @@
     </div>
   </section>
 
-  <section class="projects">
+  <section id="projects" class="projects">
     <div class="projects__inner">
       <h2 class="section-title section-title_color_dark section-title_type_inline-block">Our Finished Projects</h2>
       <span class="text text_color_dark section-text section-text_ml_60">Lorem ipsum dolor sit amet, consectetur
@@ -156,10 +167,12 @@
     </div>
   </section>
 
-  <section class="clients">
+  <section id="clients" class="clients">
     <div class="clients__inner">
-      <h2 class="section-title section-title_color_white section-title_type_inline-block clients__title">Our Beloved Client</h2>
-      <span class="text text_color_light section-text section-text_ml_60 clients__text">Lorem ipsum dolor sit amet, consectetur
+      <h2 class="section-title section-title_color_white section-title_type_inline-block clients__title">Our Beloved
+        Client</h2>
+      <span class="text text_color_light section-text section-text_ml_60 clients__text">Lorem ipsum dolor sit amet,
+        consectetur
         adipisicing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</span>
 
@@ -177,7 +190,7 @@
     </div>
   </section>
 
-  <section class="contact-us">
+  <section id="contact-us" class="contact-us">
     <div class="contact-us__inner">
       <div class="contact-us__wrapper">
 
@@ -197,7 +210,7 @@
     </div>
   </section>
 
-  <footer class="footer body__footer">
+  <footer id="footer" class="footer body__footer">
     <div class="footer__inner">
 
       <div class="footer__wrapper">
@@ -209,7 +222,8 @@
           </h4>
 
           <li class="footer__list-item">
-            <span class="text text_color_white footer__adress" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+            <span class="text text_color_white footer__adress" href="#">Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit.</span>
           </li>
           <li class="footer__list-item">
             <span class="text text_color_white footer__telephone" href="#">+62-812-7313-4321</span>

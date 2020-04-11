@@ -1,0 +1,8 @@
+@media (max-width: 425px) {
+  .nav__button-wrapper {
+    position: fixed;
+    z-index: 1001;
+    right: 15px;
+    display: flex;
+  }
+}

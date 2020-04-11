@@ -1,0 +1,5 @@
+@import '@vars/colors.sass';
+
+.nav-menu__list-item_active {
+  border-bottom: 4px $blue_4 solid;
+}

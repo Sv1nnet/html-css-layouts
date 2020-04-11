@@ -1,0 +1,11 @@
+@media (max-width: 425px) {
+  .nav__menu-wrapper {
+    position: fixed;
+    z-index: 1000;
+    right: 15px;
+    top: 32px;
+    width: 0;
+    max-width: calc(100% - 30px);
+    transition: all 0s linear .6s;
+  }
+}

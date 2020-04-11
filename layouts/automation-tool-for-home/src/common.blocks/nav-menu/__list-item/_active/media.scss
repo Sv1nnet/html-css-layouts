@@ -1,0 +1,14 @@
+@import '@vars/colors.sass';
+
+@media (max-width: 425px) {
+  .nav-menu__list-item_active {
+    background-color: $blue_5;
+    color: white;
+    border-bottom: 1px $blue_3 solid;
+
+    &:hover {
+      border-bottom: 1px $blue_3 solid;
+    }
+  }
+
+}

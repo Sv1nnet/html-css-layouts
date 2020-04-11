@@ -1,0 +1,11 @@
+.nav__button-icon_active-icon-color_white {
+  background-color: transparent;
+
+  &:after {
+    background-color: white;
+  }
+
+  &:before {
+    background-color: white;
+  }
+}

@@ -5,10 +5,21 @@
   margin: 0 20px;
   height: 48px;
   box-sizing: border-box;
+  border-bottom: 4px transparent solid;
   list-style-type: none;
+  cursor: pointer;
   line-height: 48px;
   font-family: 'PT Serif';
   color: $blue_2;
   font-size: 18px;
   font-weight: bold;
+  transition: all .15s ease;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+
+  &:hover {
+    border-bottom: 4px $blue_5 solid;
+  }
 }

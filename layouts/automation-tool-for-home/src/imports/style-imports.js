@@ -17,9 +17,26 @@ import '@/common.blocks/logo/logo.scss';
 
 import '@/common.blocks/nav/nav.scss';
 import '@/common.blocks/nav/__button/nav__button.scss';
+import '@/common.blocks/nav/__button/_bg/nav__button_bg_transparent.scss';
 import '@/common.blocks/nav/__button-icon/nav__button-icon.scss';
+import '@/common.blocks/nav/__button-icon/_active/nav__button-icon_active.scss';
+import '@/common.blocks/nav/__button-icon/_active-icon-color/nav__button-icon_active-icon-color_white.scss';
 import '@/common.blocks/nav/__button-wrapper/nav__button-wrapper.scss';
+import '@/common.blocks/nav/__button-wrapper/media.scss';
 import '@/common.blocks/nav/__inner/nav__inner.scss';
+import '@/common.blocks/nav/__menu-wrapper/nav__menu-wrapper.scss';
+import '@/common.blocks/nav/__menu-wrapper/media.scss';
+import '@/common.blocks/nav/__menu-wrapper/_active/nav__menu-wrapper_active.scss';
+import '@/common.blocks/nav/__menu/nav__menu.scss';
+import '@/common.blocks/nav/__menu/media.scss';
+import '@/common.blocks/nav/__menu/_active/nav__menu_active.scss';
+import '@/common.blocks/nav/__menu/_active/media.scss';
+
+import '@/common.blocks/nav-menu/nav-menu.scss';
+import '@/common.blocks/nav-menu/__list-item/nav-menu__list-item.scss';
+import '@/common.blocks/nav-menu/__list-item/media.scss';
+import '@/common.blocks/nav-menu/__list-item/_active/nav-menu__list-item_active.scss';
+import '@/common.blocks/nav-menu/__list-item/_active/media.scss';
 
 import '@/common.blocks/header/header.scss';
 import '@/common.blocks/header/__inner/header__inner.scss';
@@ -27,7 +44,9 @@ import '@/common.blocks/header/__inner/media.scss';
 import '@/common.blocks/header/__button/header__button.scss';
 import '@/common.blocks/header/__button/media.scss';
 import '@/common.blocks/header/__content-wrapper/header__content-wrapper.scss';
+import '@/common.blocks/header/__content-wrapper/media.scss';
 import '@/common.blocks/header/__image-wrapper/header__image-wrapper.scss';
+import '@/common.blocks/header/__image-wrapper/media.scss';
 import '@/common.blocks/header/__image/header__image.scss';
 import '@/common.blocks/header/__image/media.scss';
 import '@/common.blocks/header/__text/header__text.scss';

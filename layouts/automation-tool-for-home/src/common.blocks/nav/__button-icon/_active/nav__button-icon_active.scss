@@ -1,0 +1,15 @@
+@import '@vars/colors.sass';
+
+.nav__button-icon_active {
+  background-color: transparent;
+
+  &:after {
+    top: 0px;
+    transform: rotate(45deg);
+  }
+
+  &:before {
+    top: 0px;
+    transform: rotate(-45deg);
+  }
+}

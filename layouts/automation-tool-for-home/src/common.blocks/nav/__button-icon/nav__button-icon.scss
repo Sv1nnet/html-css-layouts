@@ -5,6 +5,7 @@
   width: 28px;
   height: 3px;
   position: relative;
+  transition: all .3s linear;
 
   &:after {
     content: '';
@@ -14,6 +15,7 @@
     position: absolute;
     top: -7px;
     background-color: $blue_3;
+    transition: all .3s linear;
   }
 
   &:before {
@@ -24,5 +26,6 @@
     position: absolute;
     top: 7px;
     background-color: $blue_3;
+    transition: all .3s linear;
   }
 }

@@ -1,7 +1,11 @@
 .nav__button {
+  padding: 0 5px 0 6px;
   display: flex;
   align-items: center;
   cursor: pointer;
   height: 40px;
   width: 40px;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 5px;
 }
