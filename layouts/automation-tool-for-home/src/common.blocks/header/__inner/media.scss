@@ -4,3 +4,9 @@
     padding-right: 15px
   }
 }
+
+@media screen and (max-width: 425px) {
+  .header__inner {
+    margin-top: 0;
+  }
+}
