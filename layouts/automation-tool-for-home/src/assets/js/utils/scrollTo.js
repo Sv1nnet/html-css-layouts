@@ -15,27 +15,30 @@ function scrollTo({
   $scrollable = $('html, body'),
   duration = 1000,
   easing = 'linear',
+  done = null,
 }) {
   if ($element) {
-    $scrollable.animate(
+    $scrollable.stop().animate(
       {
         scrollTop: $element.offset().top,
       },
       {
         duration,
         easing,
+        done,
       },
     );
   }
 
   if (selector) {
-    $scrollable.animate(
+    $scrollable.stop().animate(
       {
         scrollTop: $(selector).offset().top,
       },
       {
         duration,
         easing,
+        done,
       },
     );
   }
