@@ -1,0 +1,1 @@
+Here I use BEM naming and jQuery. To run it locally set your IP in index.js
